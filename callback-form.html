@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Have Us Call You</title>
+    </head>
+    <body>
+        <form action="/schedule-call" method="post">
+            <h2>Call Me Again</h2>
+            <div>
+                <label for="name">Full name</label>
+                <input id="name" name="name" autofocus />
+            </div>
+            <br>
+            <div>
+                <label for="phone-number">Phone number</label>
+                <input type="tel" name="phone-number" id="phone-number" pattern="\d{8}|\d{2} \d{2} \d{2} \d{2}" required/>
+            </div>
+            <br>
+            <div>
+                <label for="date">Preferred day</label>
+                <input id="date" name="date" type="date" />
+            </div>
+            <br>
+            <div>
+                <label for="timeWindow">Preferred time window</label>
+                <select id="timeWindow" name="timeWindow">
+                    <option value="">No preference</option>
+                    <option value="morning">Morning (08:00-12:00)</option>
+                    <option value="midday">Midday (12:00-16:00)</option>
+                    <option value="afternoon">Afternoon (16:00-20:00)</option>
+                    <option value="evening">Evening (20:00-22:00)</option>
+                </select>
+            </div>
+            <br>
+            <button>Request a Call</button>
+        </form>
+    </body>
+</html>
