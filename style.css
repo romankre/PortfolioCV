@@ -70,10 +70,10 @@ header {
 }
 
 .project {
+  background: #0f0f0f;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #222;
-  margin: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -100,7 +100,6 @@ header {
   border: 3px solid #000;
   background: #000;
   margin: 0 auto 22px;
-  margin-bottom: 20px;
 }
 
 .about-section h1 {
@@ -292,4 +291,3 @@ header {
     font-size: 24px;
   }
 }
-
